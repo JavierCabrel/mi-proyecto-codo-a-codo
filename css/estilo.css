@@ -1,10 +1,15 @@
-.navbar-text {
+.navbar-text-otro {
   color: rgb(255, 255, 255);
 }
 
-.color {
+.bg-cosa {
+  background: black;
+}
+
+#menu .color {
   color: green;
 }
+
 
 .fondo-imagen {
   background-color: rgb(24, 26, 26);
@@ -22,7 +27,6 @@ div.absolute {
   position: absolute;
   text-align: center;
   top: 10%;
-  
   color: white;
 }
 
@@ -68,14 +72,10 @@ div.relative {
 .colon-f {
   background-color: rgb(255, 255, 255);
   width: auto;
-  
- 
-  
 }
 
 .otra-f {
   width: 100%;
-  
 }
 
 .texto-f {
@@ -94,7 +94,6 @@ h2 {
 
 .color-nb {
   background-color: #1E445B;
-  
 }
 
 
@@ -103,8 +102,7 @@ h2 {
 }
 
 .color-lista {
-  color: rgb(216, 215, 215); 
-
+  color: rgb(216, 215, 215);
 }
 
 .color-lista:hover {
@@ -148,4 +146,3 @@ h2 {
   text-align: left;
   color: gray;
 }
-

@@ -127,11 +127,12 @@ h2 {
 
 .boton-for {
   width: 100%;
-  background: rgb(58, 175, 58);
+  background: rgb(132, 201, 68);
   color: white;
   border-radius: 4px;
   margin-bottom: 6px;
-  border: 1px solid rgb(20, 19, 19);
+  border: 1px solid rgb(255, 255, 255);
+  padding: 10px 0;
 }
 
 .charla {

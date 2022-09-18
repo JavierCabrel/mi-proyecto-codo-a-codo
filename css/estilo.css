@@ -10,44 +10,50 @@
   color: green;
 }
 
-
-.fondo-imagen {
-  background-color: rgb(24, 26, 26);
-  width: auto;
-  align-items: center;
-
-}
-
-.fondo-m {
-  opacity: 0.6;
+header {
   width: 100%;
-}
-
-div.absolute {
-  position: absolute;
-  text-align: center;
-  top: 10%;
-  color: white;
-}
-
-div.relative {
+  height: 600px;
+  background: linear-gradient(to right, rgb(0 0 0/0.6),rgb(0 0 0/0.6)), url(../img/ba1.jpg);
+  background-size: cover;
+  background-attachment: fixed;
   position: relative;
 }
 
-.boton {
-  background: rgb(54, 172, 54);
-  color: rgb(255, 255, 255);
+header .texto-header {
+  display: flex;
+  height: 400px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  min-width: 300px;
+  padding: 25px;
 }
 
-.boton:hover {
-  background: rgb(54, 172, 54);
+.texto-header h1 {
   
+  color: white;
 }
 
-.boton-p {
-  color: rgb(250, 250, 250);
+.texto-header p {
+  
+  color: white;
+}
+
+header .texto-header .boton {
+  
+  font-weight: bold;
+  color: white;
+  background: forestgreen; 
+
+}
+
+header .texto-header .boton-p {
+  
+  font-weight: bold;
+  color: white;
   border: 1px solid white;
- 
 }
 
 .parte-s {
@@ -60,10 +66,7 @@ div.relative {
   display: flex;
   flex-flow: wrap;
   justify-content: center;
-  
 }
-
-
 
 .otro-c {
   color: black;
@@ -76,6 +79,7 @@ div.relative {
 
 .otra-f {
   width: 100%;
+  box-sizing: border-box;
 }
 
 .texto-f {
@@ -85,15 +89,19 @@ div.relative {
   padding: 10px;
 }
 
+.boton-p {
+  font-weight: bold;
+  color: white;
+  border: 1px solid white;
+}
+
 h2 {
   max-height: auto;
 }
 
-
-
-
 .color-nb {
   background-color: #1E445B;
+  
 }
 
 
@@ -102,7 +110,8 @@ h2 {
 }
 
 .color-lista {
-  color: rgb(216, 215, 215);
+  color: rgb(216, 215, 215); 
+
 }
 
 .color-lista:hover {

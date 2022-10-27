@@ -1,165 +1,306 @@
-.navbar-text-otro {
-  color: rgb(255, 255, 255);
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.bg-cosa {
-  background: black;
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background: rgb(245, 245, 245);
 }
 
-#menu .color {
-  color: green;
+button {
+  font-size: 1em;
+  font-weight: bold;
+  padding: 5px 15px;
+  border-radius: 10px;
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
+  margin: 5px;
 }
 
+.btndiferente {
+  background-color: forestgreen
+}
+button .bntdiferente :hover {
+  background-color: rebeccapurple;
+}
 header {
-  width: 100%;
-  height: 700px;
-  background: linear-gradient(to right, rgb(0 0 0/0.6),rgb(0 0 0/0.6)), url(../img/ba1.jpg);
-  background-size: cover;
-  
-  position: relative;
+  background-color: rgb(33,37,41);
 }
 
-header .texto-header {
+#menu {
   display: flex;
-  height: 400px;
-  width: 100%;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
-  text-align: center;
-  min-width: 300px;
-  padding: 25px;
-  margin-top: 40px;
 }
-
-.texto-header h1 {
-  margin-left : auto;
-  font-size: 2rem;
-  color: white;
-}
-
-.texto-header p {
-  text-align: end;
-  font-size: 1rem;
-  color: white;
-}
-
-header .texto-header .q {
- 
-  font-weight: bold;
-  color: white;
-  background: forestgreen; 
-
-}
-
-header .texto-header .p {
-
-  font-weight: bold;
-  color: white;
-  border: 1px solid white;
-}
-
-header button {
-  margin-left: auto;
-}
-
-.parte-s {
-  text-align: center;
-  flex-flow: wrap;
-
-}
-
 .container {
+  max-width: 900px;
+  margin: auto;
+}
+.comprar-tickets {
+  color: forestgreen;
+}
+.comprar-tickets:hover {
+  color: rgb(5, 92, 5);
+}
+#cabeza {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  height: 90vh;
+  color: white;
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/hawaii.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 20px;
+}
+.titulos {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 2.2em;
+}
+.subtitulos {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 15px;
+  font-size: 1em;
+}
+.container-card {
   display: flex;
   flex-flow: wrap;
   justify-content: center;
 }
-
-.otro-c {
+.card{
+  margin: 15px;
+}
+.modif {
   color: black;
 }
-
-.colon-f {
-  background-color: rgb(255, 255, 255);
-  width: auto;
-}
-
-.otra-f {
+.octubre img {
   width: 100%;
-  box-sizing: border-box;
+  border: 1px solid white;
 }
-
-.texto-f {
-  color: white;
-  background-color: rgb(57, 61, 61);
-  box-sizing: border-box;
-  padding: 10px;
+.octubre {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  text-align: center;
 }
-
-.boton-p {
-  font-weight: bold;
-  color: white;
+.textoOctubre {
+  background: rgb(57, 61, 61);
+  padding: 20px;
+  color: #fff;
   border: 1px solid white;
 }
 
-h2 {
-  max-height: auto;
+.container-dif {
+  max-width: 900px;
+  margin: auto;
 }
 
-.color-nb {
-  background-color: #1E445B;
-  
-}
-
-
-.bg-fondo {
-  width: 100%;
-}
-
-.color-lista {
-  color: rgb(216, 215, 215); 
-
-}
-
-.color-lista:hover {
-  color: white;
-}
-
-.boton-for {
-  width: 100%;
+.color-b {
   background: rgb(132, 201, 68);
-  color: white;
-  border-radius: 4px;
-  margin-bottom: 6px;
-  border: 1px solid rgb(255, 255, 255);
-  padding: 10px 0;
 }
-
-.charla {
+/*Recursos repetidos de pag. 2*/
+.form-des {
   width: 100%;
-  padding: 20px;
-  border-radius: 4px;
-  margin-bottom: 6px;
-  border: 1px solid rgb(20, 19, 19);
+  padding: 30px;
+  margin: auto;
 }
-
-.contenido {
+.controls {
   width: 100%;
   padding: 10px;
   border-radius: 4px;
-  margin-bottom: 6px;
-  border: 1px solid rgb(20, 19, 19);
+  margin-bottom: 16px;
+  border: 1px solid grey;
+  font-size: 18px;
 }
 
-.from-register {
-  width:  400px;
+.subtitulos-s{
+  color: rgb(124, 119, 119);
+  font-weight: bold;
+}
+/*FOTTER*/
+.color-nb {
+  background-color: #1E445B;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 20px;
+}
+.color-lista {
+  color: rgb(255, 232, 232);
+}
+
+.nav a:hover {
+  color: #fff;
+}
+
+
+
+/*Pagina 2*/
+.fondo {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.cajas {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  
+}
+.cajasDes{
+  text-align: center;
+  margin-bottom: 16px;
+  display: block;
+  padding: 25px 40px;
+}
+.color1 {
+  border: 3px solid rgb(29, 29, 250);
+}
+
+.color2 {
+  border: 3px solid rgb(85, 230, 181);
+}
+
+.color3 {
+  border: 3px solid rgb(229, 255, 0);
+}
+
+.descuento {
+  font-weight: bold;
+}
+.sub {
+  color: rgb(71, 70, 70);
+}
+/*input*/
+.form-des {
+  width: 100%;
   padding: 30px;
   margin: auto;
+}
+.form-des P {
+  text-align: center;
+}
+.form-des h1 {
+  font-weight: bold;
+  text-align: center;
+}
+.controls {
+  width: 100%;
+  padding: 10px;
   border-radius: 4px;
-  box-sizing: border-box;
+  margin-bottom: 16px;
+  border: 1px solid grey;
+  font-size: 18px;
+}/* este es el principal de btn*/
+.form-des button {
+  width: 100%;
+  font-size: 18px;
+  background: rgb(132, 201, 68);
+  border: none;
+  padding: 12px;
+  color: #fff;
+  margin: 16px 0;
+  font-size: 16px;
+  border-radius: 4px;
+
+}
+.form-des button:hover {
+  background-color: rgb(43, 133, 43);
+}
+.total {
+  width: 100%;
+  background: #6cabd3;
+  padding: 12px;
+  color: black;
+  margin: 16px 0;
+  font-size: 16px;
+  border-radius: 4px;
 }
 
-.cosita {
-  text-align: left;
-  color: gray;
+.label-c {
+  margin-bottom: 10px;
+}
+/*FOTTER*/
+.color-nb {
+  background-color: #1E445B;
+}
+.color-lista {
+  color: rgb(255, 232, 232); 
+}
+.nav a:hover {
+  color: #fff;
+}
+@media (min-width: 720px){
+  #cabeza {
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+      text-align: right;
+      padding-left: 40%;
+  }
+  .octubre {
+      display: flex;
+      flex-direction: row;
+  }
+  .imgO {
+      width: 50%;
+      background-size: cover;
+      background-position: center center;
+  }
+  .textoOctubre {
+      width: 50%;
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      text-align: left;
+      flex-direction: column;
+  }
+  .retoques {
+    display: flex;
+    align-items: flex-start;
+  }
+  .div-input{
+      display: flex;
+      flex-direction: row;
+  }
+  .n{
+      margin-right: 10px;
+  }
+  .a{
+      margin-left: 10px;
+  }
+  .espacio {
+      width: 100%;
+  }
+  .relleno {
+      padding-bottom: 14px;
+      margin-left: 10px;
+  }
+  .relleno-a {
+      width: 98.4%;
+  }
+  .div-otro {
+      display: flex;
+      align-items: center;
+      text-align: center;
+  }
+  .btn-B {
+      width: 100%;
+      margin-right: 10px;
+  }
+  .btn-R {
+      width: 100%;
+      margin-left: 10px;
+  }
+  
 }

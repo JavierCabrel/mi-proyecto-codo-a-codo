@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/estilo.css">
+    <link rel="shortcut icon" href="../img/codoacodo.png" type="image/x-icon">
+    <title>Comprar tickets</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark" id="menu">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="../img/codoacodo.png" alt="Logo" style="width:60px;" class="rounded-pill">
+                <span class="navbar-text-otro">Cons Bs As</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+                <div class="collapse navbar-collapse" id="mynavbar">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"> <a class="nav-link" href="../index.html">La Conferencia</a></li>
+                        <li class="nav-item"> <a class="nav-link" href="#">Los oradores</a></li>
+                        <li class="nav-item"> <a class="nav-link" href="#">El lugar y fecha</a></li>
+                        <li class="nav-item"> <a class="nav-link" href="#">Conviértete en orador</a></li>
+                        <li class="nav-item"> <a class="nav-link comprar-tickets" href="#">Comprar tickets</a></li>
+                    </ul>
+                </div>
+        </div>
+    </nav>
+    <br>
+    <div class="fondo">
+      <div class="cajas">
+        <div class="cajasDes color1">
+          <h1 class="descuento">Estudiante</h1>
+          <p>Tiene un descuento</p>
+          <p class="descuento">80%</p>
+          <p class="sub">*presentar documentación</p>
+        </div>
+        <div class="cajasDes color2">
+          <h1 class="descuento">Trainee</h1>
+          <p>Tiene un descuento</p>
+          <p class="descuento">50%</p>
+          <p class="sub">*presentar documentación</p>
+        </div>
+        <div class="cajasDes color3">
+          <h1 class="descuento">Junior</h1>
+          <p>Tiene un descuento</p>
+          <p class="descuento">15%</p>
+          <p class="sub">*presentar documentación</p>
+        </div>
+      </div>
+
+      <div class="fondo"> 
+        <form id="elform" class="form-des">
+          <p>VENTA</p>
+          <h1>VALOR DE TICKET $200</h1>
+          <div class="div-input">
+            <input class="controls n" type="text" placeholder="Nombre">
+            <input class="controls a" type="text" placeholder="Apellido">
+          </div>
+          <input class="controls" type="email" placeholder="Correo">
+            <div class="div-input">
+              <div class="espacio">
+                <label class="label-c">Cantidad</label>
+                <input class="controls relleno-a" type="text" placeholder="Cantidad" id="inputCantidad">
+              </div>
+              <div class="espacio">
+                <label class="label-c a">Categoria</label>
+                  <select class="controls relleno" id="selectCategoria">
+                    <option value="0">Sin descuento</option>
+                    <option value="80">Estudiante</option>
+                    <option value="50">Trainee</option>
+                    <option value="15">Junior</option>
+                  </select>
+              </div>
+            </div>
+          <p class="total" id="totalpagar">Total a Pagar: $</p>
+          <div class="div-otro">
+            <div class="btn-B"><button id="bBorrar">Borrar</button></div>
+            <div class="btn-R"><button id="bResumen">Resumen</button></div>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <footer>
+      <div class="container-fluid color-nb p-3">
+          <ul class="nav justify-content-center bg-fondo">
+            <li class="nav-item">
+              <a class="nav-link color-lista" href="#">Preguntas frecuentes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link color-lista" href="#">Contáctanos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link color-lista" href="#">Prensa</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link color-lista" href="#">Conferencias</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link color-lista" href="#">Términos y condiciones</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link color-lista" href="#">Privacidad</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link color-lista" href="#">Estudiantes</a>
+            </li>
+          </ul>
+        </div>
+    </footer>
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+       <script src="../js/calculos.js"></script>
+</body>
+</html>
